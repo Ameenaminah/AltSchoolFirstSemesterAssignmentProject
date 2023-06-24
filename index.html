@@ -8,7 +8,7 @@
 
     <!-- ---------- Iconify---------- -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-    <title>Document</title>
+    <title>Alt School First Semester Assignment</title>
   </head>
 
   <body>
@@ -28,19 +28,19 @@
             <nav class="">
               <ul>
                 <li>
-                  <a href="#">My URLs</a>
+                  <a href="#home">My URLs</a>
                 </li>
                 <li>
-                  <a href="#">Features</a>
+                  <a href="#features">Features</a>
                 </li>
                 <li>
-                  <a href="#">Pricing</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="#">Analytics</a>
+                  <a href="#analytics">Analytics</a>
                 </li>
                 <li>
-                  <a href="#">FAQs</a>
+                  <a href="#faqs">FAQs</a>
                 </li>
               </ul>
             </nav>
@@ -55,7 +55,10 @@
           <div class="hero-content">
             <h1 class="hero-title">
               Optimize Your Online Experience with Our Advanced
-              <span>URL Shortening</span>
+              <span class="line-url"
+                >URL Shortening
+                <span class="line"><img src="./images/line.png" alt="" /></span
+              ></span>
               Solution
             </h1>
             <p class="hero-p container">
@@ -70,13 +73,16 @@
             <button>Learn more</button>
           </div>
           <div>
-            <div class="url container top">
-              <div class="url-content">
-                <img src="/images/icon.png" alt="link" />
+            <div class="chain container top">
+              <div class="chain-content">
+                <img src="/images/chain.png" alt="" />
                 <p>
                   Seamlessly transform your long URLs into concise and shareable
                   links with just few clicks.
                 </p>
+              </div>
+              <div class="chain-bg">
+                <img src="./images/chainBg.png" class="chain-bg-img" alt="" />
               </div>
             </div>
           </div>
@@ -89,15 +95,15 @@
 
     <main class="">
       <!-- ---------- Features ---------- -->
-      <section class="features">
-        <div class="featuress">
+      <section class="features" id="features">
+        <div class="featuress bottom">
           <div class="features-content container">
             <div class="features-heading">
               <h3>One Stop.</h3>
               <h3>Four <span>Possibilities.</span></h3>
             </div>
 
-            <div class="stats-container flex">
+            <div class="stats-container">
               <div class="stat">
                 <h4>3M</h4>
                 <p>Active users</p>
@@ -121,10 +127,10 @@
           </div>
         </div>
 
-        <div class="feature-sub container margin">
+        <div class="feature-sub container bottom">
           <div class="features-description">
-            <div>
-              <div class="gradient"></div>
+            <div class="gradient"></div>
+            <div class="">
               <h3>Why choose <span>Scissors</span></h3>
               <p class="features-description-p">
                 Scissors is the hub of everything that has to do with your link
@@ -172,7 +178,7 @@
             </div>
 
             <div>
-              <iconify-icon icon="ph:squares-four-light"></iconify-icon>
+              <iconify-icon icon="ri:pulse-line"></iconify-icon>
               <div>
                 <h4>Data Analytics</h4>
                 <p>
@@ -186,13 +192,11 @@
       </section>
 
       <!-- ---------- Pricing ---------- -->
-      <section class="pricing">
+      <section class="pricing container bottom" id="pricing">
         <div class="pricing-description">
+          <div class="gradient"></div>
           <div class="pricing-heading">
-            <h3>
-              <span class="line"></span> A <span>price perfect</span> for your
-              needs.
-            </h3>
+            <h3>A <span>price perfect</span> for your needs.</h3>
             <p>
               From catering for your personal, business, event, socials needs,
               you can be rest assured we have you in mind in our pricing.
@@ -203,7 +207,6 @@
         <div class="card-container">
           <div class="card basic">
             <h3 class="card-header">Basic</h3>
-
             <div class="card-content">
               <h2 class="card-title">Free</h2>
               <h4 class="card-description">Free plan for all users</h4>
@@ -292,10 +295,15 @@
             </div>
           </div>
         </div>
+
+        <div class="btn-container flex">
+          <a href="#" class="btn white">Get Customer Pricing</a>
+          <a href="#" class="btn blue">Select Pricing</a>
+        </div>
       </section>
 
-      <!-- ---------- FAQs ---------- -->
-      <section>
+      <!-- ---------- Forms ---------- -->
+      <section id="analytics">
         <div class="modal-container">
           <form action="">
             <input type="text" placeholder="Paste URL here..." aria-label="" />
@@ -316,16 +324,20 @@
             </p>
           </form>
         </div>
+      </section>
 
+      <!-- ---------- FAQs ---------- -->
+      <section class="" id="faqs">
         <div class="faqs">
-          <div class="faqs-header bottom top">
+          <div class="faqs-header top">
+            <div class="gradient"></div>
             <h1>FAQs</h1>
           </div>
           <div class="faq">
             <div>
               <div class="faq-item">
                 <h3>How does URL shortening work?</h3>
-                <iconify-icon icon="bi:plus"></iconify-icon>
+                <iconify-icon icon="ic:outline-minus"></iconify-icon>
               </div>
               <div class="answer">
                 <p>
@@ -334,7 +346,6 @@
                   When a user clicks on the shortened link, they are redirected
                   to the intended destination.
                 </p>
-                <iconify-icon icon="ic:outline-minus"></iconify-icon>
               </div>
               <hr />
             </div>
@@ -396,14 +407,112 @@
         </div>
       </section>
     </main>
-    <!-- ---------- Footer ---------- -->
-    <footer class="">
-      <div class="description">
-          <h1 class="title">Revolutionizing Link Optimization</h1>
-          <div class="">
-            <button class="btn footer-btn">Get Started</button>
-          </div>
+    <!-- ---------- Optimization ---------- -->
+    <section>
+      <div class="description bottom">
+        <h1 class="title">Revolutionizing Link Optimization</h1>
+        <div class="top">
+          <button class="btn optimize-btn">Get Started</button>
         </div>
+      </div>
+    </section>
+
+    <!-- ---------- Footer ---------- -->
+    <footer class=" footer">
+      <div class="container">
+        <div class="container">
+        <div class="flex">
+          <div class="black-logo">
+            <img src="./images/logoBlack.png" alt="logo" class="footer-logo" />
+            <ul class="socials">
+              <li><iconify-icon icon="mdi:twitter"></iconify-icon></li>
+              <li><iconify-icon icon="mdi:instagram"></iconify-icon></li>
+              <li><iconify-icon icon="mdi:linkedin"></iconify-icon></li>
+              <li>
+                <iconify-icon icon="ant-design:facebook-filled"></iconify-icon>
+              </li>
+            </ul>
+          </div>
+          <!-- single link container -->
+          <div class="footer-center">
+            <div class="logo-links">
+              <h3>Why Scissor ?</h3>
+              <ul>
+                <li><a href="#">Scissors 101</a></li>
+                <li><a href="#">Integrations and API</a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="logo-links">
+              <h3>Solutions</h3>
+              <ul>
+                <li><a href="#">Social Media</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">For Developers</a></li>
+              </ul>
+            </div>
+            <div class="logo-links">
+              <h3>Products</h3>
+              <ul>
+                <li><a href="#">Link Management</a></li>
+                <li><a href="#">QR Codes</a></li>
+                <li><a href="#">Link-in-bio</a></li>
+              </ul>
+            </div>
+            <div class="logo-links">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">About Scissor</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+              </ul>
+            </div>
+            <div class="logo-links footer-second-line">
+              <h3>Resources</h3>
+              <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Resource Library</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">App Connectors</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Trust Center</a></li>
+                <li><a href="#">Browser Extension</a></li>
+                <li><a href="#">Mobile App</a></li>
+              </ul>
+            </div>
+
+            <div class="logo-links">
+              <h3>Features</h3>
+              <ul>
+                <li><a href="#">Branded Links</a></li>
+                <li><a href="#">Mobile Links</a></li>
+                <li><a href="#">Campaign</a></li>
+                <li><a href="#">Management & Analytics</a></li>
+                <li><a href="#">QR Code generation</a></li>
+              </ul>
+            </div>
+            <div class="logo-links">
+              <h3>Legal</h3>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Acceptable Use Policy</a></li>
+                <li><a href="#">Code of Conduct</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of cont -->
+        </div>
+        <p class="footer-text">
+          Terms of Service | Security | Scissor
+          <span>2023</span>
+        </p>
+      </div>
       </div>
     </footer>
   </body>
